@@ -18,7 +18,7 @@ main{
 }
 
 aside{
-    background-color: #f8a546;
+    background-color: rgb(49, 49, 49);
     color: white;
     width: 40%;
 }
@@ -78,8 +78,50 @@ img{
 }
 
 .educacion{
-    height: 300px;
     width: 100%;
     background-color: rgb(49, 49, 49);
     padding: 2em;
 }
+
+.experienciaLaboral{
+    width: 100%;
+    background-color: rgb(49, 49, 49);
+    padding: 2em;
+}
+
+.contenedorFlexbox{
+    display: flex;
+    background-color: white;
+    overflow-x: auto;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tarjeta{
+    flex: 0 0 100px;
+    flex-basis: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 1em;
+    padding: 1em;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.tarjeta:hover{
+    transform: scale(1.01);
+}
+.tarjetaTitulo{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.tarjetaContenido{
+    font-size: 1em;
+    background-color: white;
+    color: gray;
+    padding: 1em;
+    border-radius: 1em;
+}
+

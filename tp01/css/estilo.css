@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.cabecera{
+    height:300px;
+    width: 300px;
+} 
+.data{
+    height:300px;
+    width: 200px;
+}

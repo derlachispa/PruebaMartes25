@@ -4,11 +4,17 @@
     box-sizing: border-box;
 }
 
+.tarjeta{
+position: relative;
+}
+
 html, body {
+    background-color: black;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   
   .foto{
@@ -23,7 +29,7 @@ html, body {
     place-items: center;
     width: 300px;
     height: 300px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(114, 114, 114);
     border-radius: 20px 20px 0 0;
     padding: 1em;
   }
@@ -32,14 +38,14 @@ html, body {
     place-items: center;
     width: 300px;
     height: 200px;
-    background-color: rgb(121, 22, 22);
+    background-color: rgb(180, 180, 180);
     border-radius: 0 0 20px 20px;
     padding: 1em 2em 1em 2em;
 }  
 
 .nombre{
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .datos{
@@ -59,7 +65,8 @@ html, body {
 
 .mensaje{
     width: 200px;
-    background-color: red;
+    background-color: rgb(63, 234, 247);
+    color: white;
     text-align: center;
     padding: 10px;
     border-radius: 30px;
@@ -68,4 +75,18 @@ html, body {
 
 .info{
     padding: 20px;
+}
+
+.mas{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(248, 114, 208);
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 200px;
+    right: -20px;
 }

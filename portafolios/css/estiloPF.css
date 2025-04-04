@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
-body{
-    background: linear-gradient(blue 30%, yellow 50%, blue 70%);
+html{
+    background: linear-gradient(0deg, rgba(11,0,255,1) 0%, rgba(253,212,45,1) 100%);
+
 }
 
 .trabajos{

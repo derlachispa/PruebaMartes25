@@ -32,6 +32,14 @@ html{
     text-align: center;
 }
 
+.tp2{
+    background-color: black;
+    height: 400px;
+    width: 400px;
+    border-radius: 20%;
+    text-align: center;
+}   
+
 .fotoCv{
     height: 200px;
 }
